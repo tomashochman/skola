@@ -10,12 +10,12 @@ public class Main {
         // write your code here
         System.out.println("Hello world");
         // System.in.read();
-        System.err.println();
+       // System.err.println();
         System.out.println("napis text: ");
         Scanner scanner = new Scanner(System.in);
 
         String out = scanner.nextLine();
-        int pocet = pocetZnakov("out");
+        int pocet = pocetZnakov(out);
         //vytvorte metodu ktora počita počet znakov v zadanom texte
         System.out.println("vystupny text:"+out);
         System.out.println("pocet znakov je: "+ pocet);
@@ -26,7 +26,7 @@ public class Main {
 
     private static int pocetZnakov(String out) {
 
-        return 0;
+        return out.length();
 
     }
 
